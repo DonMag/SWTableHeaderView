@@ -25,18 +25,18 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hlq-Kv-65G" id="LbE-ml-NbK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Table Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4SS-wr-l6A">
-                                                    <rect key="frame" x="15" y="4" width="102" height="21"/>
+                                                    <rect key="frame" x="15" y="5" width="102" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Use the Header View as a Table Header View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qx2-0N-KZN">
-                                                    <rect key="frame" x="15" y="25" width="255" height="15"/>
+                                                    <rect key="frame" x="15" y="26" width="255" height="14"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -46,6 +46,33 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ajX-fL-6Nl" kind="show" id="AZn-Zc-Xhm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="vSP-z9-ogf" detailTextLabel="Bcf-Qy-CG4" style="IBUITableViewCellStyleSubtitle" id="ep9-RU-aIc">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ep9-RU-aIc" id="mDo-1L-Od0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="SB Load" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vSP-z9-ogf">
+                                                    <rect key="frame" x="15" y="4" width="64" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Testing SB class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bcf-Qy-CG4">
+                                                    <rect key="frame" x="15" y="25" width="93" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9mq-Sk-ysw" kind="show" id="nHN-es-Ofc"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -61,6 +88,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7U-sx-Qa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="880.79999999999995" y="89.505247376311857"/>
+        </scene>
+        <!--Load FromSB View Controller-->
+        <scene sceneID="PQt-I1-bi0">
+            <objects>
+                <viewController id="9mq-Sk-ysw" customClass="LoadFromSBViewController" customModule="SWTableViewHeader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wro-fy-t1y"/>
+                        <viewControllerLayoutGuide type="bottom" id="XUQ-oO-kT3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hm9-Uv-R45">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s41-yd-mpa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="513"/>
         </scene>
         <!--Add Header Table View Controller-->
         <scene sceneID="p5F-ch-jHw">
@@ -105,7 +150,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2FC-cK-X07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="313"/>
+            <point key="canvasLocation" x="1690" y="-138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7Ls-gj-cOH">
@@ -261,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHI-Gz-Trx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="-265"/>
+            <point key="canvasLocation" x="2420" y="-310"/>
         </scene>
     </scenes>
 </document>

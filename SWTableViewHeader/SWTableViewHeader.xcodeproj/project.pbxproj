@@ -14,6 +14,7 @@
 		68A22DC41E86D032005DB1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A22DC21E86D032005DB1EF /* LaunchScreen.storyboard */; };
 		68A22DCC1E86D0C7005DB1EF /* AddHeaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A22DCB1E86D0C7005DB1EF /* AddHeaderTableViewController.swift */; };
 		68A22DCE1E86D1B7005DB1EF /* ComplexHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A22DCD1E86D1B7005DB1EF /* ComplexHeaderViewController.swift */; };
+		7C6C570D1E8A9388006CFB7D /* LoadFromSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C570C1E8A9388006CFB7D /* LoadFromSBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		68A22DC51E86D032005DB1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A22DCB1E86D0C7005DB1EF /* AddHeaderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHeaderTableViewController.swift; sourceTree = "<group>"; };
 		68A22DCD1E86D1B7005DB1EF /* ComplexHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexHeaderViewController.swift; sourceTree = "<group>"; };
+		7C6C570C1E8A9388006CFB7D /* LoadFromSBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFromSBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				68A22DC51E86D032005DB1EF /* Info.plist */,
 				68A22DCB1E86D0C7005DB1EF /* AddHeaderTableViewController.swift */,
 				68A22DCD1E86D1B7005DB1EF /* ComplexHeaderViewController.swift */,
+				7C6C570C1E8A9388006CFB7D /* LoadFromSBViewController.swift */,
 			);
 			path = SWTableViewHeader;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				68A22DCE1E86D1B7005DB1EF /* ComplexHeaderViewController.swift in Sources */,
 				68A22DCC1E86D0C7005DB1EF /* AddHeaderTableViewController.swift in Sources */,
+				7C6C570D1E8A9388006CFB7D /* LoadFromSBViewController.swift in Sources */,
 				68A22DBC1E86D032005DB1EF /* ViewController.swift in Sources */,
 				68A22DBA1E86D032005DB1EF /* AppDelegate.swift in Sources */,
 			);
